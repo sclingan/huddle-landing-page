@@ -24,10 +24,7 @@ body{
 }
 
 #btn-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    background: black;
+    display: inline-block;
     width: 30%;
     margin-left: 40%;
 }
@@ -38,16 +35,14 @@ body{
 }
 
 header{
+    display: inline-block;
     color: black;
-    display: flex;
-    flex-direction: row;
-    background: black;
-    width: 50%;
+    width: 40%;
     margin-right: 50%
 }
 
 .btn{
-
+    border-radius: 10px;
 }
 
 .info{
