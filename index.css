@@ -3,6 +3,8 @@
 /*TODO 
   stack two divs on one line , side by side
   */
+/*@font-face { font-family: Poppins; src: url('https://fonts.google.com/specimen/Poppins');}
+@font-face { font-family: Open Sans; src: url('https://fonts.google.com/specimen/Open+Sans');}*/
 
 *{
     margin: 0;
@@ -24,33 +26,44 @@ body{
 }
 
 #btn-wrapper{
-    display: inline-block;
-    width: 30%;
-    margin-left: 40%;
+    flex: 50%;
 }
 
 .icon{
-    margin: 0;
-    margin: 10% 0;
+    margin: 20% 0 20% 15%;
+    width: 80%;
+}
+
+#icon-wrapper{
+    flex: 50%;
 }
 
 header{
-    display: inline-block;
     color: black;
-    width: 40%;
-    margin-right: 50%
+    display: flex;
+    flex-direction: row;
+    margin-right: 40%;
 }
 
 .btn{
-    border-radius: 10px;
+    border-radius: 20px;
+    margin: 15% 0 20% 140%;
+    color: hsl(322, 100%, 66%);
+    border: hsl(322, 100%, 66%) solid 2px;
+    padding: 5% 20%;
 }
 
 .info{
-    margin: 2% 2%;
+    margin: 5% 12% 0 14%;
+    text-indent: 20px;
+    align-items: center;
+    font-size: 18px;
+    font-family: Open Sans;
 }
 
 h1{
-    margin: 2% 2%;
+    margin: 20% 15% 0 15%;
+    font-family: Poppins;
 }
 
 p{
