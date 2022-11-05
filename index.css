@@ -15,6 +15,7 @@
 
 body{
     height: 100vh;
+    background-color: black;
 }
 
 .wrapper{
@@ -24,6 +25,7 @@ body{
     justify-content: center;
     margin: 5% 35%;
     border: 2px solid black;
+    background: white;
 }
 
 #btn-wrapper{
@@ -151,14 +153,37 @@ p{
 .contact{
     background: hsl(192, 100%, 9%);
     color: white;
+    width: 100%;
+    padding-top: 10%;
 }
 
-footer{
+.phone-icon{
+    background:hsl(192, 100%, 9%);
+    margin: 0 10%;
+}
+
+.phone{
+    margin: 0 0 10% 0;
+    background:hsl(192, 100%, 9%);
+}
+
+.email-icon{
+    background: hsl(192, 100%, 9%);
+    margin: 0 10%;
+}
+
+.email{
+    margin: 0 0 10% 0;
+}
+
+.md{
+    font-size: 2vh;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: white;
  }
 
 .attribution a {
