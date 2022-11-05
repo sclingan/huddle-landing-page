@@ -58,14 +58,51 @@ header{
     text-indent: 20px;
     align-items: center;
     font-size: 18px;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
 }
 
 h1{
     margin: 20% 15% 0 15%;
-    font-family: Poppins;
+    font-family: 'Poppins';
 }
 
 p{
     margin: 2% 2%;
+}
+
+.call-to-action{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border:hsl(322, 100%, 66%)solid 2px;
+    border-radius: 20px;
+    margin: 10% 40%;
+    padding: 2% 6%;
+}
+
+.screen-mockups{
+    height: 20vh;
+}
+
+.grow-together{
+    height: 20vh;
+}
+
+.flowing{
+    height: 20vh;
+}
+
+.your-users{
+    height: 20vh;
+}
+
+.wave{
+    background-image: url(./images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.newsletter{
+    background: hsl(192, 100%, 9%);
 }
