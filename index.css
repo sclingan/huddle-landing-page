@@ -1,10 +1,10 @@
 /*mobile design*/
 /*width 375px*/
 /*TODO 
-  stack two divs on one line , side by side
+   think about using sass 
+   clean up css
+   use naming conventions (BEM)
   */
-/*@font-face { font-family: Poppins; src: url('https://fonts.google.com/specimen/Poppins');}
-@font-face { font-family: Open Sans; src: url('https://fonts.google.com/specimen/Open+Sans');}*/
 
 *{
     margin: 0;
@@ -105,4 +105,13 @@ p{
 
 .newsletter{
     background: hsl(192, 100%, 9%);
+    color: white;
+}
+
+.subscribe{
+    background:hsl(322, 100%, 66%);
+    color: white;
+    padding: 3% 8%;
+    margin: 5% 10%;
+    border-radius: 10px;
 }
