@@ -58,15 +58,15 @@ header{
 
 .info{
     margin: 5% 12% 0 14%;
-    text-indent: 20px;
-    align-items: center;
+    text-indent: 8px;
     font-size: 18px;
     font-family: 'Open Sans';
 }
 
-h1{
+.heading{
     margin: 20% 15% 0 15%;
-    font-family: 'Poppins';
+    font-family: Poppins;
+    font-weight: 700;/* fix the weight on the headings*/
 }
 
 p{
@@ -83,9 +83,48 @@ p{
 }
 
 .screen-mockups{
-    height: 20vh;
+    display: block;
+    margin: 10% auto 20% auto;
+    width: 80%;
 }
 
+.communities--icon{
+    margin: 0 36% 2% 0;
+}
+
+.communities{
+    margin: 0 30% 5% 0;
+}
+
+.communities--h1{
+    margin: 0 30% 5% 30%;
+    font-size: 80px;
+    letter-spacing: 4px;
+    font-family: Open Sans;
+    font-weight: 900;
+}
+
+.communities--p{
+    margin: 0 33% 5% 33%;
+    min-width: 100%;
+}
+
+.messages{
+    margin: 20% 30% 40% 5%;
+}
+
+.messages--icon{
+    margin: 0 40% 2% 30%;
+}
+
+.messages--p{
+    margin: 0 36% 0 55%;
+}
+
+.div--grow-together{
+    background-image: url('./images/bg-section-top-mobile-1.svg');
+    background-size: cover;
+}
 .grow-together{
     height: 20vh;
 }
@@ -137,6 +176,8 @@ p{
     color: white;
     font-size: 26px;
     margin: 5% 10%;
+    font-family: 'Poppins';
+    font-weight: 700;
 }
 
 .footer--icon{
