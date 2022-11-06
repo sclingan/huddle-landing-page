@@ -142,15 +142,35 @@ p{
 
 .heading--grow{
     background-color:hsl(207, 100%, 98%);
-    margin: 10% 20% 10% 30%;
+    margin: 10% 20% 1% 30%;
+    font-family: 'Poppins';
+    font-weight: 700;
 }
 
 .p--grow-together{
     background-color: hsl(207, 100%, 98%);
+    margin: 2% 15% 10% 18%;
+    text-indent: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    align-items: center;/* fix the spacing on this paragraph*/
 }
 
 .flowing{
     height: 20vh;
+    margin: 20% 0 0 0;
+}
+
+.heading-flowing{
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-top: 20%;
+}
+
+.p--flowing{
+    font-family: 'Open Sans';
+    margin: 5% 15% 30% 13%;
+    letter-spacing: 1px;
 }
 
 .your-users{
