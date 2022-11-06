@@ -103,8 +103,7 @@ p{
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 5.9vh;
-    width: 100%;/*fix for bg color*/
-    padding: 0;
+    width: 80%;/*fix this */
 }
 
 .newsletter{
@@ -178,6 +177,7 @@ p{
 
 .md{
     font-size: 2vh;
+    margin: 5%;
 }
 
 .attribution {
