@@ -269,11 +269,18 @@ p{
     color: white;
 }
 
+.p--footer{
+    margin: 5% 20% 8% 9%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
 .contact{
     background: hsl(192, 100%, 9%);
     color: white;
     width: 100%;
-    padding-top: 10%;
+    margin-top: 0;
 }
 
 .phone-icon{
