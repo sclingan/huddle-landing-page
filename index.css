@@ -175,14 +175,38 @@ p{
 
 .your-users{
     height: 20vh;
+    margin-top: 20%;
 }
 
-.wave{
+.heading--your-users{
+    margin: 20% 25% 5% 20%;
+}
+
+.p--your-users{
+    margin: 0 20% 20% 15%;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+.heading--build{
+    margin: 20% 27%;/*fix the centering on this*/
+}
+
+.call-to-action-bottom{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border:hsl(322, 100%, 66%)solid 2px;
+    border-radius: 20px;
+    margin: 0 20% 40% 30%;
+    padding: 2% 10%;
+}
+
+.wave--footer{
     background-image: url(./images/bg-footer-top-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 5.9vh;
-    width: 80%;/*fix this */
+    background-size: cover;
+    min-height: 60px;
+    min-width: 572px;
 }
 
 .wave-bottom{
@@ -194,10 +218,18 @@ p{
     background: hsl(192, 100%, 9%);
     color: white;
 }
+
+.newsletter--h2{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
 .newsletter--p{
     background: hsl(192, 100%, 9%);
     color: white;
-    margin: 4% 6%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin: 8% 15% 8% 10%;
+    letter-spacing: 2px;
 }
 
 #button--email{
@@ -211,10 +243,11 @@ p{
 .subscribe{
     background:hsl(322, 100%, 66%);
     color: white;
-    padding: 3% 8%;
-    margin: 5% 10% 5% 58%;
+    padding: 3% 10%;
+    margin: 5% 25% 20% 54%;
     border-radius: 10px;
     border: none;
+    font-size: 20px;
 }
 
 #newsletter--h2{
@@ -228,6 +261,7 @@ p{
 .footer--icon{
     fill: white;
     background: hsl(192, 100%, 9%);
+    margin-left: 8%;
 }
 
 .company-info-contact{
