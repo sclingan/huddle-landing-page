@@ -19,6 +19,7 @@
 body{
     height: 100vh;
     background-color: black;
+    font-size: 16px;
 }
 
 .wrapper{
@@ -57,12 +58,14 @@ header{
     color: hsl(322, 100%, 66%);
     border: hsl(322, 100%, 66%) solid 2px;
     padding: 5% 20%;
+    background-color: transparent;
 }
 
 .heading{
-    margin: 20% 15% 0 15%;
-    font-family: Poppins;
+    margin: 20% 4% 0 8%;
+    font-family: 'Poppins';
     font-weight: 700;/* fix the weight on the headings*/
+    font-size: 30px; /* fix the font size */
 }
 
 
