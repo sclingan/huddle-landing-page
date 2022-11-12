@@ -28,7 +28,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 5% 35%;
-    background-color: lightgray;
+    background-color: #fff;
     width: 375px;
 }
 
@@ -131,11 +131,20 @@ header{
     letter-spacing: .2rem;
 }
 
+.div-wave-top{
+    background: url(./images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 375px;
+    min-height: 14vh;
+}
+
 /* component 2 */
 
 .div--grow-together{
-    background-color: hsl(207, 100%, 98%);
-}
+    /* background-color: hsl(207, 100%, 98%); */
+    background: lightgrey;
+} 
 
 .grow-together{
     height: 20vh;
@@ -160,24 +169,28 @@ header{
   /* component 3 */
 .flowing{
     height: 20vh;
+    margin: 20%;
 }
 
 .heading-flowing{
     font-family: 'Poppins';
-    font-weight: 700;
-    margin-top: 20%;
+    font-size: 1.3rem;
+    font-weight: 900;
 }
 
 .p--flowing{
     font-family: 'Open Sans';
-    margin: 5% 15% 30% 13%;
-    letter-spacing: 1px;
+    font-size: .9rem;
+    text-align: justify;
+    margin: 2% 5% 20% 8%;
 }
 
 .wave-top{
     width: 100%;
     /* background-color: hsl(207, 100%, 98%); */
     background-color: light grey;
+    mask: url(./images/bg-section-top-mobile-1.svg);
+    fill: grey;
 }
   /* component 4 */
 .your-users{
