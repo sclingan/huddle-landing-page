@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 
 .wrapper{
@@ -48,7 +48,7 @@ header{
 }
 
 .icon{
-    margin: 20% 0 20% 15%;
+    margin: 20% 0 20% 25%;
     width: 100%;
 }
 
@@ -78,7 +78,7 @@ header{
 }
 
 .info{
-    margin: 5% 4% 0 6%;
+    margin: 5% 4% 0 10%;
     text-indent: 8px;
     font-family: 'Open Sans';
 }
