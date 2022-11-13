@@ -17,9 +17,7 @@
 }
 
 body{
-    height: 100vh;
     background-color: black;
-    font-size: 16px;
 }
 
 .wrapper{
@@ -51,19 +49,23 @@ header{
 
 .icon{
     margin: 20% 0 20% 15%;
-    width: 80%;
+    width: 100%;
 }
 
 #btn-wrapper{
     flex: 50%;
+    margin-bottom: 30%;
 }
 
 .btn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .6em;
     border-radius: 20px;
-    margin: 15% 0 30% 120%;
-    color: hsl(322, 100%, 66%);
-    border: hsl(322, 100%, 66%) solid 2px;
-    padding: 5% 20%;
+    margin: 17% 0 30% 140%;
+    color: hsl(321, 100%, 78%);
+    border: hsl(321, 100%, 78%) solid 2px;
+    padding: 4% 15%;
     background-color: transparent;
 }
 
@@ -71,11 +73,9 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Poppins';
-    font-weight: 900;/* fix the weight on the headings*/
-    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
 }
-
 
 .info{
     margin: 5% 4% 0 6%;
@@ -109,6 +109,8 @@ header{
 
 .communities--p{
     letter-spacing: .1rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 
 .messages{
@@ -116,19 +118,22 @@ header{
 }
 
 .messages--icon{
-    margin: 0 40% 1% 40%;
+    padding-left: 11em;
 }
 
 .messages--h1{
     font-size: 4.5rem;
     font-family: 'Open Sans';
     font-weight: 900;
-    margin-left: 7rem;
+    padding-left: 2.4em;
 }
 
 .messages--p{
-    margin: 0 40% 20% 50%;
     letter-spacing: .2rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: center;
+    padding: 0 8em 0 12em;
 }
 
 .div-wave-top{
