@@ -143,7 +143,7 @@ header{
     margin-top: 20%;
 } 
 
-.grow-together{
+.center-svg{
     width: min(95%, 375px);
     padding: 10%;
 }
@@ -164,12 +164,6 @@ header{
     font-family: 'Open Sans';
 }
   /* component 3 */
-.flowing{
-    /* height: 20vh;
-    margin: 20%; */
-    width: min(95%, 375px);
-    padding: 10%;
-}
 
 .heading-flowing{
     font-family: 'Poppins';
@@ -192,12 +186,6 @@ header{
     fill: grey;
 }
   /* component 4 */
-.your-users{
-    /* height: 20vh;
-    margin-top: 20%; */
-    width: min(95%, 375px);
-    padding: 10%;
-}
 
 .heading--your-users{
     margin: 20% 25% 5% 20%;
@@ -209,8 +197,6 @@ header{
 }
 
 .p--your-users{
-    /* margin: 0 20% 20% 15%; */
-    /* font-size: 16px; */
     font-family: 'Open Sans';
     padding-left: 4%
 }
