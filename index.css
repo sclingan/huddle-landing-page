@@ -1,11 +1,9 @@
 /*mobile design*/
 /*width 375px*/
 /*TODO 
-   think about using sass 
    clean up css
    use naming conventions (BEM)
    fix bg colors to match with waves
-   break css up into components!!!
   */
 
 
@@ -24,7 +22,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 5% 35%;
     background-color: #fff;
     width: 390px;
@@ -140,12 +137,12 @@ header{
 
 .div--grow-together{
     background-color: hsl(207, 100%, 98%);
-    margin-top: 20%;
+    /* margin-top: 20%; */
 } 
 
 .center-svg{
     width: min(95%, 375px);
-    padding: 10%;
+    padding: 20%;
 }
 
 .heading--grow{
@@ -176,14 +173,20 @@ header{
     font-family: 'Open Sans';
     font-size: .9rem;
     padding: 8%;
+    background-color: #fff;
 }
 
 .wave-top{
     width: 100%;
+    background-color: transparent;
+}
+
+.flowing-wave{
+    /*FIX THIS WAVE */
+    width: 100%;
     /* background-color: hsl(207, 100%, 98%); */
-    background-color: light grey;
-    mask: url(./images/bg-section-top-mobile-1.svg);
-    fill: grey;
+    background-color: blue;
+    display: block;
 }
   /* component 4 */
 
@@ -192,13 +195,25 @@ header{
 }
 
 .wave-bottom{
-    /* change color on svg to match */
     width: 100%;
+    background-color: transparent;
+}
+
+.users{
+    background-color:hsl(207, 100%, 98%);
 }
 
 .p--your-users{
     font-family: 'Open Sans';
-    padding-left: 4%
+    padding-left: 4%;
+    padding-bottom: 20%;
+}
+
+.wave{
+    width: 100%;
+    background-color: #fff;
+    color: hsl(207, 100%, 98%);
+    display: block;
 }
 
     /* component 5 */
@@ -305,7 +320,7 @@ header{
 
 .email-icon{
     background: hsl(192, 100%, 9%);
-    padding: 0 5% 0 5%;
+    padding: 0 5%;
 }
 
 .md{
