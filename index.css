@@ -5,9 +5,6 @@
    use naming conventions (BEM)
    fix bg colors to match with waves
   */
-
-
-  /* component 1 */
 *{
     margin: 0;
     padding: 0;
@@ -133,11 +130,8 @@ header{
     padding: 0 8em 0 12em;
 }
 
-/* component 2 */
-
 .div--grow-together{
     background-color: hsl(207, 100%, 98%);
-    /* margin-top: 20%; */
 } 
 
 .center-svg{
@@ -160,7 +154,6 @@ header{
     font-size: .9rem;
     font-family: 'Open Sans';
 }
-  /* component 3 */
 
 .heading-flowing{
     font-family: 'Poppins';
@@ -188,7 +181,6 @@ header{
     background-color: blue;
     display: block;
 }
-  /* component 4 */
 
 .heading--your-users{
     margin: 20% 25% 5% 20%;
@@ -216,8 +208,6 @@ header{
     display: block;
 }
 
-    /* component 5 */
-
 .heading--build{
     padding: 10%;
     text-align: center;
@@ -239,7 +229,7 @@ header{
     background-size: cover;
     min-height: 60px;
 }
-  /* components 6 */
+
 .newsletter{
     background: hsl(192, 100%, 9%);
     color: white;
