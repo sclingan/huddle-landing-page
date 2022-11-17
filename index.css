@@ -135,9 +135,10 @@ header{
 } 
 
 .center-svg{
-    /* width: min(95%, 375px); */
-    width: min(95%, 100%);
-    padding: 20%;
+    /* width: min(95%, 100%); */
+    width: 100%;
+    padding: 10%;
+    /* padding: 20%; */
 }
 
 .heading--grow{
@@ -150,7 +151,7 @@ header{
 
 .p--grow-together{
     background-color: hsl(207, 100%, 98%);
-    margin: 2% 5% 20% 7%;
+    margin: 2% 5% 40% 7%;
     text-indent: 5px;
     font-size: .9rem;
     font-family: 'Open Sans';
@@ -168,19 +169,12 @@ header{
     font-size: .9rem;
     padding: 8%;
     background-color: #fff;
+    padding-bottom: 40%;
 }
 
 .wave-top{
     width: 100%;
     background-color: transparent;
-}
-
-.flowing-wave{
-    /*FIX THIS WAVE */
-    width: 100%;
-    /* background-color: hsl(207, 100%, 98%); */
-    background-color: blue;
-    display: block;
 }
 
 .heading--your-users{
@@ -199,7 +193,7 @@ header{
 .p--your-users{
     font-family: 'Open Sans';
     padding-left: 4%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
 }
 
 .wave{
@@ -212,7 +206,7 @@ header{
 .heading--build{
     padding: 10%;
     text-align: center;
-    padding-top: 60%;
+    padding-top: 30%;
 }
 
 .call-to-action-bottom{
@@ -225,11 +219,7 @@ header{
 }
 
 .wave--footer{
-    /* background-image: url(./images/bg-footer-top-mobile.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* min-height: 60px; */
-    display: block;
+    width: 100%;
 }
 
 .newsletter{
