@@ -19,9 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 5% 35%; */
     background-color: #fff;
-    /* width: 390px; */
 }
 
 .section-1{
@@ -37,7 +35,7 @@ header{
     padding-right: 40%;
 }
 
-#icon-wrapper{
+.icon-wrapper{
     flex: 50%;
 }
 
@@ -46,7 +44,7 @@ header{
     width: 100%;
 }
 
-#btn-wrapper{
+.btn-wrapper{
     flex: 50%;
     margin-bottom: 30%;
 }
@@ -135,10 +133,8 @@ header{
 } 
 
 .center-svg{
-    /* width: min(95%, 100%); */
     width: 100%;
     padding: 10%;
-    /* padding: 20%; */
 }
 
 .heading--grow{
@@ -321,4 +317,30 @@ header{
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 500px){
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+
+    .communities{
+        flex: 1;
+        margin: 0;
+        padding-right: 60%;
+    }
+
+    .messages{
+        flex: 1;
+        padding-left: 40%;
+        margin: 0;
+    }
 }
