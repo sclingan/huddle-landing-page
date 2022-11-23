@@ -3,7 +3,6 @@
 /*TODO 
    clean up css
    use naming conventions (BEM)
-   fix bg colors to match with waves
   */
 
   :root {
@@ -33,7 +32,7 @@ h2,
 h3 {
     font-family: var(--headings-ff);
     font-weight: var(--headings);
-    padding: 3em;
+    padding: .5em;
 }
 
 p {
@@ -44,119 +43,64 @@ p {
 
 body {
     position: absolute;
-    /* text-align: center;  */
+    text-align: center; 
+}
+
+img {
+    max-width: 100%;
+    /* padding: 2em; */
+    padding: 4rem 2em 10rem 2em;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    margin-right: 33%;
+    max-width: 10%;
 }
 
 
-header{
+header {
     color: black;
     display: flex;
     flex-direction: row;
+    padding-bottom: 20%;
 }
 
-.icon-wrapper{
+.icon-wrapper {
     flex: 50%;
 }
 
-.icon{
-    width: 100%;
-}
-
-.btn-wrapper{
+.btn-wrapper {
     flex: 50%;
 }
 
-.btn{
-    font-family: 'Open Sans', sans-serif;
+.btn {
+    background-color: var(--primary-pink);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 1.2em 3em;
+    font-family: var(--body-ff);
+    font-weight: var(--body-weight-600);
+    letter-spacing: 2px;
+    /* box-shadow: 2px 8px 10px var(--neutral-pale); check this on good monitor */
+    box-shadow: 2px 8px 10px lightgrey;
+}
+
+.header-button {
+     font-family: var(--body-ff);
     font-weight: 400;
-    font-size: .6em;
-    border-radius: 20px;
-    margin: 17% 0 30% 140%;
-    color: hsl(321, 100%, 78%);
-    border: hsl(321, 100%, 78%) solid 2px;
-    padding: 4% 15%;
-    background-color: transparent;
+    color: var(--primary-pink);
+    border: .1rem solid var(--primary-light-pink);
+    border-radius: 4rem;
+    padding: .2rem .9rem;
 }
-
-.heading{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    width: 75%;
-}
-
-.info{
-    margin: 5% 4% 0 10%;
-    text-indent: 8px;
-    font-family: 'Open Sans';
-}
-
-.call-to-action{
-    background-color: hsl(322, 100%, 66%);
-    color: white;
-    border:hsl(322, 100%, 66%)solid 2px;
-    border-radius: 20px;
-    margin: 10% 40%;
-    padding: 2% 6%;
-}
-
-.screen-mockups{
-    margin-top: 20%;
-    width: min(85%, 100%);
-}
-
-.communities-messages{
-    text-align: center;
-    padding-top: 30%;
-}
-
-.communities--icon{
-    padding-right: 9rem;
-}
-
-.communities--h1{
-    font-size: 4.5rem;
-    font-family: 'Open Sans';
-    font-weight: 900;
-}
-
-.communities--p{
-    letter-spacing: .1rem;
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
-
-.messages{
-    margin: 20% 30% 0 5%;
-    text-align: center;
-}
-
-.messages--icon{
-    padding-right: 5rem;
-}
-
-.messages--h1{
-    font-size: 4.5rem;
-    font-family: 'Open Sans';
-    font-weight: 900;
-}
-
-.messages--p{
-    letter-spacing: .2rem;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    text-align: center;
-}
-
+/* 
 .div--grow-together{
     background-color: hsl(207, 100%, 98%);
 } 
 
-.center-svg{
-    max-width: 100%;
-    padding: 10%;
-}
 
 .heading--grow{
     background-color:hsl(207, 100%, 98%);
@@ -326,10 +270,110 @@ header{
     padding: 0 5%;
 }
 
-.md{
-    font-size: 2rem;
-    padding-left: 4%;
-    padding-bottom: 10%;
+ */
+
+.div--center-info {
+    text-indent: 8px;
+    font-family: var(--body-ff);
+    padding-bottom: 20%;
+}
+
+.section--stats {
+
+}
+
+.div--icon-comunities {
+
+}
+
+.div--text-stats {
+    margin: 0;
+    padding: 0;
+}
+
+.div--icon-messages {
+
+}
+
+.h2--bold-numbers {
+    font-size: 4em;
+    padding: 0;
+    font-family: var(--body-ff);
+    font-weight: var(--headings);
+}
+
+.p--text-stats {
+    padding: .5em 0 8rem 0;
+    font-family: var(--body-ff);
+    font-weight: 200;
+}
+
+.section--grow {
+
+}
+
+.div--illustration-grow {
+
+}
+
+.div--text-grow {
+
+}
+
+.section--flowing {
+
+}
+
+.div--illustration-flowing {
+
+}
+
+.div--text-flowing {
+
+}
+
+.section--users {
+
+}
+
+.div--illustration-users {
+
+}
+
+.div--text-users {
+
+}
+
+.footer--info {
+
+}
+
+.section--newsletter {
+
+}
+
+.div--newsletter-info {
+
+}
+
+.div--input-subscribe {
+
+}
+
+.section--footer-logo {
+
+}
+
+.div--img-logo {
+
+}
+
+.div--text-logo {
+
+}
+
+.div--text-contact {
+
 }
 
 .attribution {
@@ -342,7 +386,7 @@ header{
      color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 500px){
+/* @media (min-width: 500px){
 
   
     .communities-messages{
@@ -384,4 +428,24 @@ header{
         flex-basis: 100%;
     }
    
+} */
+
+@media (min-width: 500px) {
+
+    .section--stats {
+        display: flex;
+    }
+
+    .section--grow {
+        display: flex;
+    }
+
+    .section--flowing {
+        display: flex;
+    }
+
+    .section--users {
+        display: flex;
+    }
+
 }
