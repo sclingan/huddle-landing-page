@@ -5,20 +5,47 @@
    use naming conventions (BEM)
    fix bg colors to match with waves
   */
-*{
+
+  :root {
+    --primary-pink: hsl(322, 100%, 66%);
+    --primary-light-pink: hsl(321, 100%, 78%);
+    --primary-light-red: hsl(0, 100%, 63%);
+    --neutral-dark: hsl(192, 100%, 9%);
+    --neutral-pale: hsl(207, 100%, 98%);
+    --headings: 900;
+    --headings-ff: 'Poppins Bold', sans-serif;
+    --body-ff: 'Open Sans', serif;
+    --body-weight-400: 400;
+    --body-weight-600: 600;
+    --body-weight-700: 700;
+}
+
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    position: absolute;
+h1,
+h2,
+h3 {
+    font-family: var(--headings-ff);
+    font-weight: var(--headings);
+    padding: 3em;
 }
 
+p {
+    font-family: var(--body-ff);
+    font-weight: var(--body-weight-400);
+    padding:  3em 1em;
+}
 
-
-
-
+body {
+    position: absolute;
+    /* text-align: center;  */
+}
 
 
 header{
