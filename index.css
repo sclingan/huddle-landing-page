@@ -1,9 +1,7 @@
 /*mobile design*/
 /*width 375px*/
 /*TODO 
-   clean up css
    use naming conventions (BEM)
-   fix bg colors to match with waves
   */
 *{
     margin: 0;
@@ -18,20 +16,17 @@ body{
 
 .wrapper{
     overflow: hidden;
-    text-align: center;
-    /* margin-inline: 2rem; */
+    /* text-align: center; */
 }
 
 .section-1{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 header{
     color: black;
     display: flex;
-    /* flex-direction: row; */
 }
 
 .icon-wrapper{
@@ -40,15 +35,14 @@ header{
 }
 
 .icon{
-    /* padding: 2em 0 0 0; */
-    /* width: 100%; */
-    max-width: 70%;
-    padding-top: 2em;
+    padding: 2em;
 }
 
 .btn-wrapper{
     margin-bottom: 30%;
-    padding: 2.2em .2em 0 2em;
+    padding: 2em;
+    text-align: right;
+
 }
 
 .btn{
