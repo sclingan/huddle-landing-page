@@ -16,7 +16,6 @@ body{
 
 .wrapper{
     overflow: hidden;
-    /* text-align: center; */
 }
 
 .section-1{
@@ -39,21 +38,15 @@ header{
 }
 
 .btn-wrapper{
-    /* margin-bottom: 30%; */
-    /* padding: 2em 0 0 10em; */
-    /* text-align: right; */
-
 }
 
 .btn{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    /* font-size: .6em; */
-    /* font-size: 1rem; */
+  
     border-radius: 20px;
     color: hsl(321, 100%, 78%);
     border: hsl(321, 100%, 78%) solid 2px;
-    /* padding: 4% 15%; */
     padding: 5% 30%;
     background-color: transparent;
     letter-spacing: .1em;
