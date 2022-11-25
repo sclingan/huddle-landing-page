@@ -19,7 +19,7 @@ body{
 .wrapper{
     overflow: hidden;
     text-align: center;
-    margin-inline: 2rem;
+    /* margin-inline: 2rem; */
 }
 
 .section-1{
@@ -31,22 +31,24 @@ body{
 header{
     color: black;
     display: flex;
-    flex-direction: row;
-    padding-right: 40%;
+    /* flex-direction: row; */
 }
 
 .icon-wrapper{
-    flex: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .icon{
-    margin: 20% 0 20% 25%;/*fix this */
-    width: 100%;
+    /* padding: 2em 0 0 0; */
+    /* width: 100%; */
+    max-width: 70%;
+    padding-top: 2em;
 }
 
 .btn-wrapper{
-    flex: 50%;
     margin-bottom: 30%;
+    padding: 2.2em .2em 0 2em;
 }
 
 .btn{
@@ -54,7 +56,6 @@ header{
     font-weight: 400;
     font-size: .6em;
     border-radius: 20px;
-    margin: 17% 0 30% 140%;
     color: hsl(321, 100%, 78%);
     border: hsl(321, 100%, 78%) solid 2px;
     padding: 4% 15%;
