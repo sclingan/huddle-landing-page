@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="description" content="web page for huddle.com, frontend mentor challenge">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
@@ -17,71 +17,74 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
   <main>
-<!--TODO: add better alt descriptions-->
-<header>
-  <div class="header--icon-logo">
-    <img src="./images/logo.svg" class="header-icon">
-    <!-- <picture>
-      <img src="./images/logo.svg" alt="huddle logo">
-    </picture> -->
-  </div>
-  <div class="header--button-try">
-    <input type="button"  class="header-button" value="Try It Free">
-  </div>
-</header>
- <div class="div--center-info"> 
-   <h1>Build The Community Your Fans Will Love</h1>
+    <header>
+      <div class="header--icon-logo">
+       <img src="./images/logo.svg" class="header-icon" alt="Huddle pink logo">
+        <!-- <picture>
+          <img src="./images/logo.svg" alt="huddle logo">
+        </picture> -->
+      </div>
+      <div class="header--button-try">
+      <form>
+      <input type="button"  class="header-button" value="Try It Free">
+      </form>
+      </div>
+    </header>
+    <div class="div--center-info"> 
+    <h1>Build The Community Your Fans Will Love</h1>
      <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
         your audience. Create connections with your users as you engage in genuine discussion. 
      </p>
-    <input type="button" class="btn" value="Get Started For Free">
- </div>
+     <form>
+      <input type="button" class="btn" value="Get Started For Free">
+     </form>
+    </div>
 
-  <img src="./images/screen-mockups.svg" alt="screen mockups showing full screen and mobile sizes">
+    <img src="./images/screen-mockups.svg" alt="screen mockups showing full screen and mobile sizes">
 
-  <section class="section--stats">
-    <div class="div--icon-communities">
+    <section class="section--stats">
+     <div class="div--icon-communities">
       <img src="./images/icon-communities.svg" class="icon" alt="commuities icon">
-    </div>
+     </div>
 
-    <div class="div--text-stats">
-      <h2 class="h2--bold-numbers">1.4k+</h2>
-      <p class="p--text-stats">Communities Formed</p>
-    </div>
+     <div class="div--text-stats">
+       <h2 class="h2--bold-numbers">1.4k+</h2>
+       <p class="p--text-stats">Communities Formed</p>
+     </div>
 
-    <div class="div--icon-messages">
+     <div class="div--icon-messages">
       <img src="./images/icon-messages.svg" class="icon" alt="messages icon">
-    </div>
+     </div>
 
-    <div class="div--text-stats">
+     <div class="div--text-stats">
       <h2 class="h2--messages">2.7m+</h2>
       <p class="p--text-stats">Messages Sent</p>
-    </div>
-  </section>
-      <img src="./images/bg-section-top-mobile-1.svg" class="wave">
+     </div>
+    </section>
+      <img src="./images/bg-section-top-mobile-1.svg" class="wave" alt="light blue wave design">
 
-  <section class="section--grow">
+    <section class="section--grow">
     <div class="div--illustration-grow">
       <img src="./images/illustration-grow-together.svg" alt="grow together illustration">
     </div>
 
- <div class="div--text-grow">
-  <h2>Grow Together</h2>
-  <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-     Think of the insightful conversations you miss out on with a feedback form. 
-  </p>
- </div>
-  </section>
- <img src="./images/bg-section-bottom-mobile-1.svg" class="wave">
+    <div class="div--text-grow">
+    <h2>Grow Together</h2>
+    <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+       Think of the insightful conversations you miss out on with a feedback form. 
+    </p>
+   </div>
+   </section>
+   <img src="./images/bg-section-bottom-mobile-1.svg" class="wave" alt="light blue wave design">
 
-  <section class="section--flowing">
+   <section class="section--flowing">
     <div class="div--illustration-flowing">
       <img src="./images/illustration-flowing-conversation.svg" alt="flowing conversation illustration">
     </div>
@@ -92,11 +95,11 @@
         just-in-time loading for a more natural flow.
      </p>
     </div>
-  </section>
+    </section>
  
-    <img src="./images/bg-section-top-mobile-2.svg" class="wave">
+    <img src="./images/bg-section-top-mobile-2.svg" class="wave" alt="light blue wave design">
 
-  <section class="section--users">
+    <section class="section--users">
     <div class="div--illustration-users">
       <img src="./images/illustration-your-users.svg" alt="your users illustration">
     </div>
@@ -107,17 +110,19 @@
         once signed in to your app, your users can start chatting immediately.
      </p>
     </div>
-  </section>
-    <img src="./images/bg-section-bottom-mobile-2.svg" class="wave">
+    </section>
+    <img src="./images/bg-section-bottom-mobile-2.svg" class="wave" alt="light blue wave design">
   
-  <section class="footer--info">
+    <section class="footer--info">
     <h2>Ready To Build Your Community?</h2>
-    <input type="button"  class="btn" value="Get Started For Free">
-  </section>
-    <img src="./images/bg-footer-top-mobile.svg" class="wave">
+    <form>
+     <input type="button"  class="btn" value="Get Started For Free">
+    </form>
+    </section>
+    <img src="./images/bg-footer-top-mobile.svg" class="wave" alt="dark blue wave design">
 
-  <div class="div--company-info"><!--use this as a wrapper for desktop-->
-  <section class="section--newsletter">
+    <div class="div--company-info"><!--use this as a wrapper for desktop-->
+    <section class="section--newsletter">
     <div class="div--newsletter-info">
      <h3 class="h3--newsletter">NEWSLETTER</h3>
      <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
@@ -126,42 +131,44 @@
     </div>
     <div class="div--form-wrapper"><!--for desktop-->
     <div class="div--input-email">
+      <form>
       <input type="email" class="input--email">
-    </div>
-    <div class="div--input-subscribe">
+      </div>
+      <div class="div--input-subscribe">
       <input type="button" class="button--subscribe" value="Subscribe">
-    </div>
-    </div><!--end of wrapper for desktop-->
-  </section>
+      </div>
+      </form>
+     </div><!--end of wrapper for desktop-->
+    </section>
 
-<section class="section--footer-logo">
-  <div class="div--img-logo">
+    <section class="section--footer-logo">
+    <div class="div--img-logo">
     <img src="./images/logo-white.svg" alt="huddle logo">
-  </div>
+    </div>
 
-  <div class="div--text-logo">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-    vestibulum a, ultrices quis sem.
-  </p>
-  </div>
+    <div class="div--text-logo">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+      vestibulum a, ultrices quis sem.
+    </p>
+    </div>
 
-  <div class="div--text-contact">
-   <div class="div--contact-phone"><img src="./images/icon-phone.svg" alt="a phone icon">Phone: +1-543-123-4567</div>
-   <div class="div--contact-email"><img src="./images/icon-email.svg" alt="an email icon">example@huddle.com</div>
-  </div>
-  <div class="div--social-icons">
+    <div class="div--text-contact">
+    <div class="div--contact-phone"><img src="./images/icon-phone.svg" alt="a phone icon">Phone: +1-543-123-4567</div>
+    <div class="div--contact-email"><img src="./images/icon-email.svg" alt="an email icon">example@huddle.com</div>
+    </div>
+    <div class="div--social-icons">
     <ion-icon name="logo-facebook"></ion-icon>
     <ion-icon name="logo-instagram"></ion-icon>
     <ion-icon name="logo-twitter"></ion-icon>
-  </div>
-</section>
-  </div><!--end wrapper for desktop-->
-  <footer>
+    </div>
+    </section>
+    </div><!--end wrapper for desktop-->
+    <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Scott Clingan</a>.
     </p>
-  </footer>
+    </footer>
   </main>
 </body>
 </html>

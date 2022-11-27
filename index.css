@@ -52,12 +52,14 @@ body {
     text-align: center; 
     overflow-x: hidden;
     width: 100%;
+    background-color: #111;/* check this for accessibility */
 }
 
 main {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #fff;/* check this for accessibility */
 }
 
 img {
@@ -316,7 +318,7 @@ header {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 500px) { /* change breakpoint to something larger maybe 700px */
 
     .section--stats {
         display: flex;
@@ -357,7 +359,7 @@ header {
 
     .div--newsletter-info {
         padding-top: 0;
-        padding: 0 16em 0 6em;
+        /* padding: 0 16em 0 6em; */
     }
 
     .div--form-wrapper {
@@ -383,7 +385,7 @@ header {
     }
 
     .section--footer-logo {
-        padding-inline: 6em;
+        /* padding-inline: 6em; */
     }
 
 }
