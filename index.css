@@ -340,4 +340,50 @@ header {
         flex-direction: row-reverse;
     }
 
+    .div--text-users {
+        padding-top: 20%;
+        padding-inline: 4em;/* check this on all paragraphs */
+    }
+
+    .div--company-info {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .wave {
+        display: block;
+        border: none;
+    }
+
+    .div--newsletter-info {
+        padding-top: 0;
+        padding: 0 16em 0 6em;
+    }
+
+    .div--form-wrapper {
+        display: flex;
+        flex-direction: row;
+        /* align-items: baseline; */
+    }
+      /* fix all this */
+    .div--input-email {
+        flex: 1;
+        max-width: 70%;
+        padding-left: 4.5em;
+    }
+
+    .div--input-subscribe {
+        flex: 1;
+        padding-top: 4.8em;
+        padding-right: 4em;
+    }
+
+    .button--subscribe {
+        padding: 1.2em 4em;
+    }
+
+    .section--footer-logo {
+        padding-inline: 6em;
+    }
+
 }
