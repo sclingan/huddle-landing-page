@@ -38,24 +38,24 @@ h3 {
 p {
     font-family: var(--body-ff);
     font-weight: var(--body-weight-400);
-    /* padding:  3em 1em; */
     padding: 0 1em;
 }
 
 body {
     position: absolute;
     text-align: center; 
+    overflow-x: hidden;
+    width: 100%;
 }
 
 main {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 img {
     max-width: 100%;
-    /* padding: 2em; */
-    /* padding: 4rem 2em 10rem 2em; */
     padding: 0 2em 0 2em;
 }
 
@@ -63,15 +63,14 @@ img {
     margin: 0;
     padding: 0;
     margin-right: 33%;
-    max-width: 10%;
+    /* max-width: 10%; */
+    max-width: 8%;
 }
 
 
 header {
     color: black;
     display: flex;
-    /* flex-direction: row; */
-    /* padding-bottom: 20%; */
     padding-bottom: 23%;
 }
 
@@ -108,25 +107,25 @@ header {
     color: #fff;
     border: none;
     border-radius: 30px;
-    padding: 1.2em 3em;
+    padding: 1em 3em;
     font-family: var(--body-ff);
     font-weight: var(--body-weight-600);
-    letter-spacing: 2px;
+    letter-spacing: .5px;
     /* box-shadow: 2px 8px 10px var(--neutral-pale); check this on good monitor */
     box-shadow: 2px 8px 10px lightgrey;
     margin-top: 3.5em;
     margin-bottom: 5em;
+    font-size: 12px;/* convert this to em or rem */
 }
 
 .div--center-info {
     text-indent: 8px;
     font-family: var(--body-ff);
-    /* padding-bottom: 20%; */
     padding-bottom: 7%;
 }
 
 .section--stats {
-    padding-top: 25%;
+    padding-top: 30%;
     padding-bottom: 0;
     margin: 0;
 }
@@ -140,8 +139,17 @@ header {
     padding: 0;
 }
 
+.h2--messages {
+    font-size: 4em;
+    padding: 0;
+    font-family: var(--body-ff);
+    font-weight: var(--headings);
+    padding-left: 9%;
+}
+
 .div--icon-messages {
-    padding-top: 15%;
+    padding-top: 20%;
+    padding-bottom: 0;
 }
 
 .h2--bold-numbers {
@@ -152,8 +160,6 @@ header {
 }
 
 .p--text-stats {
-    /* padding: .5em 0 8rem 0; */
-    /* padding-bottom: 20%; */
     padding-bottom: 2%;
     font-family: var(--body-ff);
     font-weight: 200;
@@ -182,7 +188,7 @@ header {
 
 .section--flowing {
     padding-top: 30%;
-    padding-bottom: 40%;
+    padding-bottom: 25%;
 }
 
 .div--illustration-flowing {
@@ -199,7 +205,7 @@ header {
 
 .div--illustration-users {
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 13%;
 }
 
 .div--text-users {
@@ -208,7 +214,7 @@ header {
 
 .footer--info {
     padding-top: 8%;
-    padding-bottom: 40%;
+    padding-bottom: 45%;
 }
 
 .section--newsletter {
@@ -234,18 +240,30 @@ header {
 
 .div--input-email {
     padding-top: 10%;
-    padding-inline: 2.3em;
 }
 
 .input--email {
     font-size: 2.7rem;
-    /* max-width: 80%; */
+    max-width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: none;
     border-radius: 5px;
 }
 
 .div--input-subscribe {
-   padding-top: 10%;
+   padding-top: 4%;
+   text-align: right;
+   margin-right: 6%;
+}
+
+.button--subscribe {
+    border: 1px solid var(--primary-light-pink);
+    background-color: var(--primary-pink);
+    color: #fff;
+    padding: 1em 3.8em;
+    border-radius: 5px;
+    letter-spacing: 1px;
 }
 
 .section--footer-logo {
