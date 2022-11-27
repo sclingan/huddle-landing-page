@@ -177,7 +177,7 @@ header {
     margin: 0;
     padding: 0;
     display: block;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .div--text-grow {
@@ -320,18 +320,24 @@ header {
 
     .section--stats {
         display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        align-items: baseline;
     }
 
     .section--grow {
         display: flex;
+        flex-direction: row-reverse;
     }
 
     .section--flowing {
         display: flex;
+        flex-direction: row;
     }
 
     .section--users {
         display: flex;
+        flex-direction: row-reverse;
     }
 
 }
