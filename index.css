@@ -1,9 +1,14 @@
-/*mobile design*/
-/*width 375px*/
-/*TODO 
-   clean up css
-  */
 
+/* TODO:
+   clean up css
+   fix header button size and spacing of two items
+   fix center paragraph, spacing on desktop is too wide
+   fix icons above numbers on desktop
+   fix buttons on footer for email and subscribe, make them responsive
+*/
+
+
+  /* CSS reset */
   :root {
     --primary-pink: hsl(322, 100%, 66%);
     --primary-light-pink: hsl(321, 100%, 78%);
@@ -52,18 +57,16 @@ body {
     text-align: center; 
     overflow-x: hidden;
     width: 100%;
-    background-color: #111;/* check this for accessibility */
 }
 
 main {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #fff;/* check this for accessibility */
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /* check this might be min-width */
     padding: 0 2em 0 2em;
 }
 
@@ -86,7 +89,7 @@ header {
 }
 
 .header-icon {
-    max-width: 100%;
+    max-width: 100%; /* check this might be min-width */
     margin-top: 1.8em;
 }
 
@@ -302,6 +305,7 @@ header {
     font-size: 1.8em;
 }
 
+/* Spacing for social media icons */
 .md {
     padding-right: 3%;
 }
@@ -318,7 +322,7 @@ header {
 }
 
 
-@media (min-width: 500px) { /* change breakpoint to something larger maybe 700px */
+@media (min-width: 700px) { /* change breakpoint to something larger maybe 700px */
 
     .section--stats {
         display: flex;
@@ -363,29 +367,35 @@ header {
     }
 
     .div--form-wrapper {
-        display: flex;
-        flex-direction: row;
+        /* display: flex; */
+        /* flex-direction: row; */
         /* align-items: baseline; */
     }
       /* fix all this */
     .div--input-email {
-        flex: 1;
-        max-width: 70%;
-        padding-left: 4.5em;
+        /* flex: 1; */
+        /* max-width: 70%; */
+        max-width: 50%;
+        /* padding-left: 4.5em; */
+        padding-left: .9em;
     }
 
     .div--input-subscribe {
-        flex: 1;
-        padding-top: 4.8em;
-        padding-right: 4em;
+        /* flex: 1; */
+        /* padding-top: 4.8em; */
+        /* padding-right: 4em; */
     }
 
     .button--subscribe {
-        padding: 1.2em 4em;
+        /* padding: 1.2em 4em; */
     }
 
     .section--footer-logo {
-        /* padding-inline: 6em; */
+        /* padding-inline: 3em; */
+    }
+
+    .section--newsletter {
+        /* padding-inline: 2em; */
     }
 
 }
