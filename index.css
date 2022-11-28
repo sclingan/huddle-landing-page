@@ -322,7 +322,7 @@ header {
 }
 
 
-@media (min-width: 700px) { /* change breakpoint to something larger maybe 700px */
+@media (min-width: 700px) { 
 
     .section--stats {
         display: flex;
@@ -354,48 +354,39 @@ header {
     .div--company-info {
         display: flex;
         flex-direction: row-reverse;
+        background-color: var(--neutral-dark);
     }
 
     .wave {
         display: block;
-        border: none;
     }
 
     .div--newsletter-info {
         padding-top: 0;
-        /* padding: 0 16em 0 6em; */
+        background-color: var(--neutral-dark);
     }
 
     .div--form-wrapper {
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* align-items: baseline; */
+
     }
       /* fix all this */
     .div--input-email {
-        /* flex: 1; */
-        /* max-width: 70%; */
         max-width: 50%;
-        /* padding-left: 4.5em; */
         padding-left: .9em;
     }
 
     .div--input-subscribe {
-        /* flex: 1; */
-        /* padding-top: 4.8em; */
-        /* padding-right: 4em; */
     }
 
     .button--subscribe {
-        /* padding: 1.2em 4em; */
     }
 
     .section--footer-logo {
-        /* padding-inline: 3em; */
     }
-
+    /* still showing white line on top of div */
     .section--newsletter {
-        /* padding-inline: 2em; */
+        background-color: var(--neutral-dark);
+        padding: 0;
     }
 
 }
