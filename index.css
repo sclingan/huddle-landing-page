@@ -243,6 +243,10 @@ header {
     padding-top: 10%;
 }
 
+.div--form-wrapper {
+    padding-inline: 8%;
+}
+
 .input--email {
     font-size: 2.7rem;
     max-width: 85%;
@@ -322,7 +326,7 @@ header {
 }
 
 
-@media (min-width: 700px) { /* try 540px  from 530 to 650 is wrong */
+@media (min-width: 630px) { /* try 540px  from 530 to 650 is wrong */
 
     .section--stats {
         display: flex;
