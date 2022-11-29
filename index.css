@@ -322,7 +322,7 @@ header {
 }
 
 
-@media (min-width: 700px) { 
+@media (min-width: 700px) { /* try 540px  from 530 to 650 is wrong */
 
     .section--stats {
         display: flex;
@@ -367,7 +367,7 @@ header {
     }
 
     .div--form-wrapper {
-
+        display: flex;
     }
       /* fix all this */
     .div--input-email {
@@ -376,6 +376,8 @@ header {
     }
 
     .div--input-subscribe {
+        margin: 0;
+        padding-top: 10%;
     }
 
     .button--subscribe {
@@ -383,10 +385,11 @@ header {
 
     .section--footer-logo {
     }
-    /* still showing white line on top of div */
+    /* still showing white line on top of div on 412 width, 820, 768 width*/
     .section--newsletter {
         background-color: var(--neutral-dark);
         padding: 0;
+        max-width: 50%;
     }
 
 }
