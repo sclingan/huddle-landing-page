@@ -376,7 +376,11 @@ header {
       /* fix all this */
     .div--input-email {
         max-width: 50%;
-        padding-left: .9em;
+        /* padding-left: .9em; */
+    }
+
+    .input--email {
+        margin: 0;
     }
 
     .div--input-subscribe {
