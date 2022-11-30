@@ -74,8 +74,7 @@ img {
 .icon {
     margin: 0;
     padding: 0;
-    margin-right: 33%;
-    max-width: 8%;
+    max-width: 15%;
 }
 
 
@@ -149,6 +148,11 @@ header {
     padding: 0;
 }
 
+.div--icon-communities {
+    /* padding-right: 33%; */
+    padding-right: 7rem;
+}
+
 .h2--messages {
     font-size: 4em;
     padding: 0;
@@ -160,6 +164,7 @@ header {
 .div--icon-messages {
     padding-top: 20%;
     padding-bottom: 0;
+    padding-right: 7rem;
 }
 
 .h2--bold-numbers {
@@ -331,6 +336,10 @@ header {
 
 @media (min-width: 630px) { /* try 540px  from 530 to 650 is wrong */
 
+    .icon {
+        max-width: 100%;
+    }
+    
     .section--stats {
         display: flex;
         flex-direction: row;
