@@ -5,6 +5,7 @@
    fix center paragraph, spacing on desktop is too wide
    fix icons above numbers on desktop
    fix buttons on footer for email and subscribe, make them responsive
+   active states on buttons
 */
 
 
@@ -89,8 +90,9 @@ header {
 }
 
 .header-icon {
-    max-width: 100%; /* check this might be min-width */
+    max-width: 100%; 
     margin-top: 1.8em;
+    /* min-width: 10rem; */
 }
 
 .header--button-try {
@@ -100,6 +102,7 @@ header {
     padding-right: 1em;
 }
 
+/* redo this for responsive */
 .header-button {
     font-family: var(--body-ff);
     font-weight: 400;
@@ -110,7 +113,7 @@ header {
     letter-spacing: 1px;
     font-size: .2em;
     background-color: #fff;
-}
+}  
 
 .btn {
     background-color: var(--primary-pink);
@@ -398,6 +401,21 @@ header {
         background-color: var(--neutral-dark);
         padding: 0;
         max-width: 50%;
+    }
+
+    .header--button-try {
+        padding-right: 3rem;
+        padding-top: 4.5rem;
+    }
+
+    .header--icon-logo {
+        padding-top: 4.0625rem;
+    }
+
+    .header-icon {
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 3rem;
     }
 
 }
