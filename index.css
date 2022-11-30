@@ -343,9 +343,12 @@ header {
     .section--stats {
         display: flex;
         flex-direction: row;
-        gap: 3rem;
+        /* gap: 3rem; */
         align-items: baseline;
+        /* flex-wrap: wrap; */
     }
+
+  
 
     .section--grow {
         display: flex;
