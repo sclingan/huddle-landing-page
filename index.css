@@ -1,7 +1,7 @@
 
 /* TODO:
    clean up css
-   fix header button size and spacing of two items
+   fix header button size and spacing of two items, header logo shrinks too small on mobile, button doesn't resize
    fix center paragraph, spacing on desktop is too wide
    fix icons above numbers on desktop
    fix buttons on footer for email and subscribe, make them responsive
@@ -339,16 +339,38 @@ header {
     .icon {
         max-width: 100%;
     }
-    
-    .section--stats {
+
+    p {
+        padding-inline: 15%;
+    }
+
+    .div--center-info {
+        padding-inline: 30%;
+    }
+
+    .header--button-try {
+        padding-right: 3rem;
+        padding-top: 4.5rem;
+    }
+
+    .header--icon-logo {
+        padding-top: 4.0625rem;
+        text-align: left;
+    }
+
+    .header-icon {
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 3rem;
+    }
+
+       .section--stats {
         display: flex;
         flex-direction: row;
         /* gap: 3rem; */
         align-items: baseline;
         /* flex-wrap: wrap; */
     }
-
-  
 
     .section--grow {
         display: flex;
@@ -388,6 +410,11 @@ header {
     .div--form-wrapper {
         display: flex;
     }
+
+    .p--text {
+        padding-left: 1em;
+        padding-right: 50%;
+    }
       /* fix all this */
     .div--input-email {
         max-width: 50%;
@@ -415,19 +442,5 @@ header {
         max-width: 50%;
     }
 
-    .header--button-try {
-        padding-right: 3rem;
-        padding-top: 4.5rem;
-    }
-
-    .header--icon-logo {
-        padding-top: 4.0625rem;
-    }
-
-    .header-icon {
-        padding-top: 0;
-        margin-top: 0;
-        padding-left: 3rem;
-    }
 
 }
