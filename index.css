@@ -91,7 +91,6 @@ header {
 .header-icon {
     max-width: 100%; 
     margin-top: 1.8em;
-    /* min-width: 10rem; */
 }
 
 .header--button-try {
@@ -102,7 +101,7 @@ header {
 }
 
 /* redo this for responsive */
-.header-button {
+/* .header-button {
     font-family: var(--body-ff);
     font-weight: 400;
     color: var(--primary-pink);
@@ -112,7 +111,32 @@ header {
     letter-spacing: 1px;
     font-size: .2em;
     background-color: #fff;
-}  
+}   */
+
+.header-button {
+    font-family: var(--body-ff);
+    font-weight: var(--body-weight-400);
+    color: var(--primary-pink);
+    border: .1rem solid var(--primary-light-pink);
+    border-radius: 4rem;
+    padding: 1% 5%;
+    letter-spacing: 3em;
+    font-size: 2%;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    color: #fff;
+    background-color: var(--primary-pink);
+}
+/* check this on all sizes */
+@media (max-width: 400px){
+
+    .header-icon {
+        min-width: 120%;
+        padding-left: .5em;
+    }
+}
 
 .btn {
     background-color: var(--primary-pink);
