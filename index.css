@@ -101,7 +101,7 @@ header {
 }
 
 /* redo this for responsive */
-/* .header-button {
+.header-button {
     font-family: var(--body-ff);
     font-weight: 400;
     color: var(--primary-pink);
@@ -111,9 +111,10 @@ header {
     letter-spacing: 1px;
     font-size: .2em;
     background-color: #fff;
-}   */
+    cursor: pointer;
+}  
 
-.header-button {
+/* .header-button {
     font-family: var(--body-ff);
     font-weight: var(--body-weight-400);
     color: var(--primary-pink);
@@ -123,7 +124,7 @@ header {
     letter-spacing: 3em;
     font-size: 2%;
     cursor: pointer;
-}
+} */
 
 .header-button:hover {
     color: #fff;
@@ -133,8 +134,8 @@ header {
 @media (max-width: 400px){
 
     .header-icon {
-        min-width: 120%;
-        padding-left: .5em;
+        min-width: 110%;
+        padding-left: 1.5em;
     }
 }
 
@@ -388,12 +389,12 @@ header {
         padding-left: 3rem;
     }
 
-       .section--stats {
-        display: flex;
-        flex-direction: row;
-        /* gap: 3rem; */
-        align-items: baseline;
-        /* flex-wrap: wrap; */
+    .section--stats {
+     display: flex;
+     flex-direction: row;
+     /* gap: 3rem; */
+     align-items: baseline;
+     /* flex-wrap: wrap; */
     }
 
     .section--grow {
@@ -433,6 +434,7 @@ header {
 
     .div--form-wrapper {
         display: flex;
+        padding-left: 2.5em;
     }
 
     .p--text {
@@ -441,8 +443,7 @@ header {
     }
       /* fix all this */
     .div--input-email {
-        max-width: 50%;
-        /* padding-left: .9em; */
+        max-width: 80%;
     }
 
     .input--email {
@@ -464,6 +465,14 @@ header {
         background-color: var(--neutral-dark);
         padding: 0;
         max-width: 50%;
+    }
+
+    .div--text-contact {
+        padding-left: .5em; /* make these responsive, %'s */
+    }
+
+    .div--social-icons {
+        padding-left: 1em;/* make these responsive, %'s */
     }
 
 
