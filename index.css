@@ -6,6 +6,7 @@
    fix icons above numbers on desktop
    fix buttons on footer for email and subscribe, make them responsive
    active states on buttons
+   fix spacing of all sections on desktop
 */
 
 
@@ -153,6 +154,11 @@ header {
     margin-top: 3.5em;
     margin-bottom: 5em;
     font-size: 12px;/* convert this to em or rem */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--primary-light-pink);
 }
 
 .div--center-info {
@@ -302,6 +308,11 @@ header {
     padding: 1em 3em;
     border-radius: 5px;
     letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button--subscribe:hover {
+    background-color: var(--primary-light-pink);
 }
 
 .section--footer-logo {
@@ -400,11 +411,13 @@ header {
     .section--grow {
         display: flex;
         flex-direction: row-reverse;
+        padding-bottom: 0;
     }
 
     .section--flowing {
         display: flex;
         flex-direction: row;
+        padding-bottom: 0;
     }
 
     .section--users {
@@ -415,6 +428,12 @@ header {
     .div--text-users {
         padding-top: 20%;
         padding-inline: 4em;/* check this on all paragraphs */
+        padding-bottom: 0;
+    }
+
+    .footer--info {
+        padding-bottom: 10%;
+        padding-top: 0;
     }
 
     .div--company-info {
@@ -439,11 +458,13 @@ header {
 
     .p--text {
         padding-left: 1em;
-        padding-right: 50%;
+        /* padding-right: 50%; */
+        padding-right: 35%;
     }
       /* fix all this */
     .div--input-email {
-        max-width: 80%;
+        /* max-width: 80%; */
+        max-width: 60%;
     }
 
     .input--email {
@@ -455,20 +476,12 @@ header {
         padding-top: 10%;
     }
 
-    .button--subscribe {
-    }
-
-    .section--footer-logo {
-    }
     /* still showing white line on top of div on 412 width, 820, 768 width*/
     .section--newsletter {
         background-color: var(--neutral-dark);
         padding: 0;
         max-width: 50%;
-    }
-
-    .div--text-contact {
-        padding-left: .5em; /* make these responsive, %'s */
+        padding-right: 4em;
     }
 
     .div--social-icons {
