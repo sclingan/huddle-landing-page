@@ -68,7 +68,7 @@ main {
 }
 
 img {
-    max-width: 100%; /* check this might be min-width */
+    max-width: 100%; 
     padding: 0 2em 0 2em;
 }
 
@@ -180,7 +180,6 @@ header {
 }
 
 .div--icon-communities {
-    /* padding-right: 33%; */
     padding-right: 7rem;
 }
 
@@ -370,7 +369,7 @@ header {
 }
 
 
-@media (min-width: 630px) { /* try 540px  from 530 to 650 is wrong */
+@media (min-width: 630px) { 
 
     .icon {
         max-width: 100%;
@@ -417,7 +416,7 @@ header {
     .section--flowing {
         display: flex;
         flex-direction: row;
-        padding-bottom: 0;
+        padding-bottom: 10%;
     }
 
     .section--users {
@@ -427,7 +426,7 @@ header {
 
     .div--text-users {
         padding-top: 20%;
-        padding-inline: 4em;/* check this on all paragraphs */
+        padding-inline: 4em;
         padding-bottom: 0;
     }
 
@@ -458,7 +457,6 @@ header {
 
     .p--text {
         padding-left: 1em;
-        /* padding-right: 50%; */
         padding-right: 35%;
     }
       /* fix all this */
@@ -485,7 +483,7 @@ header {
     }
 
     .div--social-icons {
-        padding-left: 1em;/* make these responsive, %'s */
+        padding-left: 1em;
     }
 
 
