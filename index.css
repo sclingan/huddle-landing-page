@@ -96,7 +96,8 @@ header {
 
 .header--button-try {
     flex: 1;
-    padding-top: 1.8em;
+    /* padding-top: 1.8em; */
+    padding-top: 1.7em;
     text-align: right;
     padding-right: 1em;
 }
@@ -408,7 +409,8 @@ header {
 
     .header--button-try {
         padding-right: 3rem;
-        padding-top: 4.5rem;
+        /* padding-top: 4.5rem; */
+        padding-top: 4rem;
     }
 
     .header-button {
@@ -441,6 +443,10 @@ header {
         padding-inline: 5%;
     }
 
+    .div--text-grow {
+        padding-top: 5%;
+    }
+
     .section--flowing {
         display: flex;
         flex-direction: row;
@@ -449,7 +455,8 @@ header {
     }
 
     .div--text-flowing {
-        padding-top: 12%;
+        /* padding-top: 12%; */
+        padding-top: 10%;
     }
 
     .section--users {
@@ -459,7 +466,8 @@ header {
 
     .div--text-users {
         /* padding-top: 20%; */
-        padding-top: 8%;
+        /* padding-top: 8%; */
+        padding-top: 2%;
         padding-inline: 4em;
         padding-bottom: 0;
         padding-left: 0;
@@ -509,8 +517,8 @@ header {
     }
       /* fix all this */
     .div--input-email {
-        max-width: 80%;
-        /* max-width: 60%; */
+        /* max-width: 80%;  this looks better , but no margin on 800px-840px */
+        max-width: 75%;
     }
 
     .div--text-contact {
