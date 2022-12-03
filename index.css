@@ -375,17 +375,44 @@ header {
         max-width: 100%;
     }
 
+    h1 {
+        font-size: 2.2rem;
+        padding-bottom: 2%;
+    }
+
+    h2 {
+        font-size: 33px;
+        font-size: 2rem;
+    }
+
     p {
         padding-inline: 15%;
     }
 
+    .p--center-info {
+        padding-inline: 33%;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+    }
+
     .div--center-info {
-        padding-inline: 30%;
+        /* padding-inline: 30%; */
+        padding: 0;
+    }
+
+    header {
+        padding-bottom: 10%;
     }
 
     .header--button-try {
         padding-right: 3rem;
         padding-top: 4.5rem;
+    }
+
+    .header-button {
+        font-size: 1.2rem;
     }
 
     .header--icon-logo {
@@ -411,12 +438,18 @@ header {
         display: flex;
         flex-direction: row-reverse;
         padding-bottom: 0;
+        padding-inline: 5%;
     }
 
     .section--flowing {
         display: flex;
         flex-direction: row;
-        padding-bottom: 10%;
+        /* padding-bottom: 10%; */
+        padding-bottom: 8%;
+    }
+
+    .div--text-flowing {
+        padding-top: 12%;
     }
 
     .section--users {
@@ -425,9 +458,20 @@ header {
     }
 
     .div--text-users {
-        padding-top: 20%;
+        /* padding-top: 20%; */
+        padding-top: 8%;
         padding-inline: 4em;
         padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .div--illustration-users {
+        /* padding-top: 20%; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-right: 10%;
+        margin-top: 0;
+        padding-top: 0;
     }
 
     .footer--info {
@@ -459,10 +503,22 @@ header {
         padding-left: 1em;
         padding-right: 35%;
     }
+
+    .div--text-logo {
+        padding-right: 23%;
+    }
       /* fix all this */
     .div--input-email {
-        /* max-width: 80%; */
-        max-width: 60%;
+        max-width: 80%;
+        /* max-width: 60%; */
+    }
+
+    .div--text-contact {
+        padding-top: 4%;
+    }
+
+    .div--contact-phone {
+        padding-bottom: 2%;
     }
 
     .input--email {
