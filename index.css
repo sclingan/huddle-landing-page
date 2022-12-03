@@ -114,6 +114,7 @@ header {
     color: #fff;
     background-color: var(--primary-pink);
 }
+
 @media (max-width: 400px){
 
     .header-icon {
@@ -408,9 +409,15 @@ header {
     .section--stats {
      display: flex;
      flex-direction: row;
-     /* gap: 3rem; */
+     gap: 10%;
      align-items: baseline;
-     /* flex-wrap: wrap; */
+     flex-wrap: nowrap;
+     /* padding-left: 30%; */
+    }
+
+    .div--flex-container {
+        text-align: center;
+        padding-inline: 10%;
     }
 
     .section--grow {
