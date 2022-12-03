@@ -1,12 +1,8 @@
 
 /* TODO:
    clean up css
-   fix header button size and spacing of two items, header logo shrinks too small on mobile, button doesn't resize
-   fix center paragraph, spacing on desktop is too wide
    fix icons above numbers on desktop
-   fix buttons on footer for email and subscribe, make them responsive
-   active states on buttons
-   fix spacing of all sections on desktop
+   fix white div lines on 800px
 */
 
 
@@ -96,13 +92,11 @@ header {
 
 .header--button-try {
     flex: 1;
-    /* padding-top: 1.8em; */
     padding-top: 1.7em;
     text-align: right;
     padding-right: 1em;
 }
 
-/* redo this for responsive */
 .header-button {
     font-family: var(--body-ff);
     font-weight: 400;
@@ -116,23 +110,10 @@ header {
     cursor: pointer;
 }  
 
-/* .header-button {
-    font-family: var(--body-ff);
-    font-weight: var(--body-weight-400);
-    color: var(--primary-pink);
-    border: .1rem solid var(--primary-light-pink);
-    border-radius: 4rem;
-    padding: 1% 5%;
-    letter-spacing: 3em;
-    font-size: 2%;
-    cursor: pointer;
-} */
-
 .header-button:hover {
     color: #fff;
     background-color: var(--primary-pink);
 }
-/* check this on all sizes */
 @media (max-width: 400px){
 
     .header-icon {
@@ -150,11 +131,9 @@ header {
     font-family: var(--body-ff);
     font-weight: var(--body-weight-600);
     letter-spacing: .5px;
-    /* box-shadow: 2px 8px 10px var(--neutral-pale); check this on good monitor */
     box-shadow: 2px 8px 10px lightgrey;
     margin-top: 3.5em;
     margin-bottom: 5em;
-    font-size: 12px;/* convert this to em or rem */
     cursor: pointer;
 }
 
@@ -399,7 +378,6 @@ header {
     }
 
     .div--center-info {
-        /* padding-inline: 30%; */
         padding: 0;
     }
 
@@ -409,7 +387,6 @@ header {
 
     .header--button-try {
         padding-right: 3rem;
-        /* padding-top: 4.5rem; */
         padding-top: 4rem;
     }
 
@@ -450,12 +427,10 @@ header {
     .section--flowing {
         display: flex;
         flex-direction: row;
-        /* padding-bottom: 10%; */
         padding-bottom: 8%;
     }
 
     .div--text-flowing {
-        /* padding-top: 12%; */
         padding-top: 10%;
     }
 
@@ -465,8 +440,6 @@ header {
     }
 
     .div--text-users {
-        /* padding-top: 20%; */
-        /* padding-top: 8%; */
         padding-top: 2%;
         padding-inline: 4em;
         padding-bottom: 0;
@@ -474,7 +447,6 @@ header {
     }
 
     .div--illustration-users {
-        /* padding-top: 20%; */
         padding-bottom: 0;
         margin-bottom: 0;
         padding-right: 10%;
@@ -517,7 +489,6 @@ header {
     }
       /* fix all this */
     .div--input-email {
-        /* max-width: 80%;  this looks better , but no margin on 800px-840px */
         max-width: 75%;
     }
 
