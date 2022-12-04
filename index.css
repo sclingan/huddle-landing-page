@@ -13,6 +13,7 @@
     --primary-light-red: hsl(0, 100%, 63%);
     --neutral-dark: hsl(192, 100%, 9%);
     --neutral-pale: hsl(207, 100%, 98%);
+    --primary-white: hsl(0, 0%, 100%);
     --headings: 900;
     --headings-ff: 'Poppins Bold', sans-serif;
     --body-ff: 'Open Sans', serif;
@@ -38,10 +39,9 @@ h3 {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 2rem;
     line-height: 1.5em;
     font-weight: 900;
-    padding-bottom: 5%;
 }
 
 p {
@@ -49,7 +49,7 @@ p {
     font-weight: var(--body-weight-400);
     padding: 0 1em;
 }
-
+/* set position and hide overflow */
 body {
     position: absolute;
     text-align: center; 
@@ -62,21 +62,19 @@ main {
     padding: 0;
     overflow-x: hidden;
 }
-
+/* make all images responsive */
 img {
     max-width: 100%; 
-    padding: 0 2em 0 2em;
+    padding: 0 2em;
 }
-
+/* make images responsive */
 .icon {
-    margin: 0;
     padding: 0;
     max-width: 15%;
 }
 
-
 header {
-    color: black;
+    color: hsl(0, 0%, 0%);
     display: flex;
     padding-bottom: 23%;
 }
@@ -99,22 +97,23 @@ header {
 
 .header-button {
     font-family: var(--body-ff);
-    font-weight: 400;
+    font-weight: var(--body-weight-400);
     color: var(--primary-pink);
     border: .1rem solid var(--primary-light-pink);
     border-radius: 4rem;
     padding: .3rem .9rem;
     letter-spacing: 1px;
     font-size: .2em;
-    background-color: #fff;
+    background-color: var(--primary-white);
     cursor: pointer;
 }  
 
 .header-button:hover {
-    color: #fff;
+    color: var(--primary-white);
     background-color: var(--primary-pink);
 }
 
+/* adjusting the header icon at smallest screens */
 @media (max-width: 400px){
 
     .header-icon {
@@ -125,7 +124,7 @@ header {
 
 .btn {
     background-color: var(--primary-pink);
-    color: #fff;
+    color: var(--primary-white);
     border: none;
     border-radius: 30px;
     padding: 1em 3em;
@@ -151,13 +150,6 @@ header {
 
 .section--stats {
     padding-top: 30%;
-    padding-bottom: 0;
-    margin: 0;
-}
-
-.div--text-stats {
-    margin: 0;
-    padding: 0;
 }
 
 .div--icon-communities {
@@ -174,7 +166,6 @@ header {
 
 .div--icon-messages {
     padding-top: 20%;
-    padding-bottom: 0;
     padding-right: 7rem;
 }
 
@@ -185,20 +176,13 @@ header {
     font-weight: var(--headings);
 }
 
-.p--text-stats {
-    padding-bottom: 2%;
-    font-family: var(--body-ff);
-    font-weight: 200;
-}
-
 .section--grow {
     background-color: var(--neutral-pale);
     padding-top: 20%;
 }
-
+/* background wave design */
 .wave {
-    background-color: #fff;
-    margin: 0;
+    background-color: var(--primary-white);
     padding: 0;
     display: block;
     min-width: 100%;
@@ -238,7 +222,7 @@ header {
 
 .section--newsletter {
     background-color: var(--neutral-dark);
-    color: #fff;
+    color: var(--primary-white);
     text-align: left;
     padding-bottom: 28%;
 }
@@ -284,7 +268,7 @@ header {
 .button--subscribe {
     border: 1px solid var(--primary-light-pink);
     background-color: var(--primary-pink);
-    color: #fff;
+    color: var(--primary-white);
     padding: 1em 3em;
     border-radius: 5px;
     letter-spacing: 1px;
@@ -297,9 +281,7 @@ header {
 
 .section--footer-logo {
     background-color: var(--neutral-dark);
-    color: #fff;
-    margin: 0;
-    padding: 0;
+    color: var(--primary-white);
     text-align: left;
 }
 
@@ -337,18 +319,19 @@ header {
 .md {
     padding-right: 3%;
 }
-
+/* styles added by frontend mentor */
 .attribution {
     background-color: var(--neutral-dark);
     font-size: 11px;
     text-align: center;
-    color: white;
+    color: var(--primary-white);
  }
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
 }
 
+/* Desktop */
 
 @media (min-width: 630px) { 
 
@@ -357,12 +340,11 @@ header {
     }
 
     h1 {
-        font-size: 2.2rem;
+        font-size: 2.2rem;/* maybe change this */
         padding-bottom: 2%;
     }
 
     h2 {
-        font-size: 33px;
         font-size: 2rem;
     }
 
@@ -370,29 +352,8 @@ header {
         padding-inline: 15%;
     }
 
-    .p--center-info {
-        padding-inline: 33%;
-    }
-
-    .btn {
-        font-size: 1.1rem;
-    }
-
-    .div--center-info {
-        padding: 0;
-    }
-
     header {
         padding-bottom: 10%;
-    }
-
-    .header--button-try {
-        padding-right: 3rem;
-        padding-top: 4rem;
-    }
-
-    .header-button {
-        font-size: 1.2rem;
     }
 
     .header--icon-logo {
@@ -404,6 +365,27 @@ header {
         padding-top: 0;
         margin-top: 0;
         padding-left: 3rem;
+    }
+
+    .header--button-try {
+        padding-right: 3rem;
+        padding-top: 4rem;
+    }
+
+    .header-button {
+        font-size: 1.2rem;
+    }
+
+    .div--center-info {
+        padding: 0;
+    }
+
+    .p--center-info {
+        padding-inline: 33%;
+    }
+
+    .btn {
+        font-size: 1.1rem;
     }
 
     .section--stats {
@@ -436,10 +418,6 @@ header {
         padding-bottom: 8%;
     }
 
-    .div--text-flowing {
-        padding-top: 10%;
-    }
-
     .section--users {
         display: flex;
         flex-direction: row-reverse;
@@ -448,15 +426,10 @@ header {
     .div--text-users {
         padding-top: 2%;
         padding-inline: 4em;
-        padding-bottom: 0;
-        padding-left: 0;
     }
 
     .div--illustration-users {
-        padding-bottom: 0;
-        margin-bottom: 0;
         padding-right: 10%;
-        margin-top: 0;
         padding-top: 0;
     }
 
@@ -469,10 +442,6 @@ header {
         display: flex;
         flex-direction: row-reverse;
         background-color: var(--neutral-dark);
-    }
-
-    .wave {
-        display: block;
     }
 
     .div--newsletter-info {
@@ -511,7 +480,6 @@ header {
     }
 
     .div--input-subscribe {
-        margin: 0;
         padding-top: 10%;
     }
 
