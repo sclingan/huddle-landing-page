@@ -1,11 +1,3 @@
-
-/* TODO:
-   clean up css
-   fix icons above numbers on desktop
-   fix white div lines on 800px
-*/
-
-
   /* CSS reset */
   :root {
     --primary-pink: hsl(322, 100%, 66%);
@@ -62,17 +54,17 @@ main {
     padding: 0;
     overflow-x: hidden;
 }
-/* make all images responsive */
+/* responsive images */
 img {
     max-width: 100%; 
     padding: 0 2em;
 }
-/* make images responsive */
+/* responsive icon */
 .icon {
     padding: 0;
     max-width: 15%;
 }
-
+/* flex columns */
 header {
     color: hsl(0, 0%, 0%);
     display: flex;
@@ -249,7 +241,7 @@ header {
 .div--form-wrapper {
     padding-inline: 8%;
 }
-
+/* inactive input for display */
 .input--email {
     font-size: 2.7rem;
     max-width: 85%;
@@ -308,7 +300,7 @@ header {
     font-weight: var(--body-weight-400);
     padding-bottom: 10%;
 }
-
+/* inactive icons for decoration */
 .div--social-icons {
     padding-left: 8%;
     padding-bottom: 10%;
@@ -340,7 +332,7 @@ header {
     }
 
     h1 {
-        font-size: 2.2rem;/* maybe change this */
+        font-size: 2.2rem;
         padding-bottom: 2%;
     }
 
@@ -387,7 +379,7 @@ header {
     .btn {
         font-size: 1.1rem;
     }
-
+    /* flex rows */
     .section--stats {
      display: flex;
      flex-direction: row;
@@ -442,6 +434,8 @@ header {
         display: flex;
         flex-direction: row-reverse;
         background-color: var(--neutral-dark);
+        margin-bottom: -1px;
+        margin-top: -1px;
     }
 
     .div--newsletter-info {
@@ -462,7 +456,7 @@ header {
     .div--text-logo {
         padding-right: 23%;
     }
-      /* fix all this */
+
     .div--input-email {
         max-width: 75%;
     }
@@ -483,12 +477,12 @@ header {
         padding-top: 10%;
     }
 
-    /* still showing white line on top of div on 412 width, 820, 768 width*/
     .section--newsletter {
         background-color: var(--neutral-dark);
         padding: 0;
         max-width: 50%;
         padding-right: 4em;
+        margin-bottom: -1px;
     }
 
     .div--social-icons {
